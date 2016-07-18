@@ -38,21 +38,38 @@ a:hover, a:focus, a:active{
     padding-top: 15px;
 }
 .ibtitle-wrap{
-    display: table;
-    vertical-align: middle;
-    height: 200px;
-    width:100%;
-    border: 1px solid #ddd;
+    height:200px;
 }
-.ibtitle-wrap:hover{
+/*.ibtitle-wrap:hover{
     box-shadow: 1px 1px 15px #999;
-}
+}*/
 .ibtitle{
-    display: table-cell;
-    vertical-align: middle;
-    margin:0 auto;
-    padding:10px;
+    padding: 10px 0;
+    text-align: left;
     text-transform: capitalize;
+   
+     text-align: left;
+}
+.iblink {
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+}
+.iblink:hover {
+    color: #00c0ff;
+   
+}
+.ibdescription{
+    color: #999;
+    font-size: 14px;
+    line-height: 1.4;
+    padding-top: 10px;
+    text-align: left;
+}
+.ibtags{
+    text-align: left;
+    color:#00c0ff;
+    
 }
 
 /*--------------------cards*/ 
