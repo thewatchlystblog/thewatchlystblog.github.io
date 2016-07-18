@@ -1,5 +1,5 @@
 /*custom code*/
-section{padding:60px 0;}
+section{padding:30px 0;}
 p,li,button{font-family: Roboto;font-size: 18px;}
 a:hover, a:focus, a:active{
     text-decoration: none !important;
@@ -33,7 +33,27 @@ a:hover, a:focus, a:active{
 .reduced-padding-top{
     padding-top:0px !important;
 }
-
+.ibcontainer{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.ibtitle-wrap{
+    display: table;
+    vertical-align: middle;
+    height: 200px;
+    width:100%;
+    border: 1px solid #ddd;
+}
+.ibtitle-wrap:hover{
+    box-shadow: 1px 1px 15px #999;
+}
+.ibtitle{
+    display: table-cell;
+    vertical-align: middle;
+    margin:0 auto;
+    padding:10px;
+    text-transform: capitalize;
+}
 
 /*--------------------cards*/ 
  .card {
